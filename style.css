@@ -1,0 +1,51 @@
+Css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.page-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 8px;
+    margin: 20px;
+}
+
+.page-nav a {
+    padding: 10px;
+    border: 1px solid gray;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.page-nav a:hover,
+.page-nav a:focus-visible {
+    background-color: black;
+    color: white;
+}
+
+.about, .works {
+    border: 1px solid gray;
+    margin: 20px;
+    padding: 15px;
+}
+
+.work {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
